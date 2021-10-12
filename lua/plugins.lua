@@ -59,7 +59,15 @@ return require('packer').startup({
 		}
 		}
 
-
+		-- lsp快速安全
+		use 'kabouzeid/nvim-lspinstall'
+		-- 快速注释和取消注释
+		use 'preservim/nerdcommenter'
+		-- 括号快速补全
+		use 'jiangmiao/auto-pairs'
+		-- 启动美化
+		use 'mhinz/vim-startify'
+		
 
 
 
