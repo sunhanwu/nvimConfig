@@ -67,7 +67,10 @@ return require('packer').startup({
 		use 'jiangmiao/auto-pairs'
 		-- 启动美化
 		use 'mhinz/vim-startify'
-		
+		-- fzf搜索
+		use 'junegunn/fzf.vim'
+		-- 自动格式化
+		use 'Chiel92/vim-autoformat'
 
 
 
