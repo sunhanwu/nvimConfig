@@ -71,6 +71,8 @@ return require('packer').startup({
 		use 'junegunn/fzf.vim'
 		-- 自动格式化
 		use 'Chiel92/vim-autoformat'
+		-- git status
+		use 'airblade/vim-gitgutter'
 
 
 
