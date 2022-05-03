@@ -81,7 +81,7 @@ return require('packer').startup({
 		max_jobs = 16,
 		git = {
 			-- 修改这里可以切换加速的节点
-			default_url_format = 'https://hub.fastgit.org/%s'
+			default_url_format = 'https://www.github.com/%s'
 			-- csdn 备选
 			-- default_url_format = 'https://codechina.csdn.net/mirrors/%s'
 		},
