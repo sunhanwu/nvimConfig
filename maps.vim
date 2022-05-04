@@ -149,3 +149,7 @@ nmap  -  <Plug>(choosewin)
 "nmap  <leader>w  <Plug>(choosewin)
 
 
+" new floaterm
+noremap <leader>t :FloatermNew<CR>
+
+" ecs floaterm
