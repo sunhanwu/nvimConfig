@@ -75,6 +75,10 @@ return require('packer').startup({
 		use 'airblade/vim-gitgutter'
 		-- terminal manager
 		use 'voldikss/vim-floaterm'
+		-- rainbow
+		use 'frazrepo/vim-rainbow'
+		-- far: search and replace plugin
+		use 'brooth/far.vim'
 
 
 

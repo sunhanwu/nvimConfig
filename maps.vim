@@ -67,7 +67,7 @@ noremap s :w<CR>
 inoremap <C-s> <ESC> :w<CR>
 " 代码格式化
 noremap <leader>f :Format<CR> 
-noremap <leader>r :luafile ~/.wp/lua/run.lua<CR>
+"noremap <leader>r :luafile ~/.wp/lua/run.lua<CR>
 
 " 强制退出
 map Q :q<CR>
@@ -155,4 +155,7 @@ noremap <A-f> :FloatermFirst<CR>
 noremap <A-h> :FloatermHide<CR>
 "nmap <C-\> <C-\><C-n>
 
-" ecs floaterm
+" start fzf
+noremap <leader>z :Files<CR>
+noremap <leader>r :History<CR>
+noremap <leader>s :BLines<CR>
