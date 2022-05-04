@@ -151,5 +151,8 @@ nmap  -  <Plug>(choosewin)
 
 " new floaterm
 noremap <leader>t :FloatermNew<CR>
+noremap <A-f> :FloatermFirst<CR>
+noremap <A-h> :FloatermHide<CR>
+"nmap <C-\> <C-\><C-n>
 
 " ecs floaterm
