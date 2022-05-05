@@ -150,7 +150,7 @@ nmap  -  <Plug>(choosewin)
 
 
 " new floaterm
-noremap <leader>tf :FloatermNew<CR>
+noremap <leader>tf :FloatermNew --height=0.8 --width=0.9<CR>
 noremap <A-f> :FloatermFirst<CR>
 noremap <A-h> :FloatermHide<CR>
 noremap <A-n> :FloatermNext<CR>
@@ -191,3 +191,5 @@ nnoremap <leader>sp viw:lua require('spectre').open_file_search()<cr>
 " todo-comments 
 noremap <leader>td :TodoTelescope theme=dropdown<CR>
 
+" close current buffer
+noremap <A-w> :bd<CR>
