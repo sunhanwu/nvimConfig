@@ -15,6 +15,16 @@ git clone git@github.com:sunhanwu/nvimConfig.git ~/.config/nvim
 3. Packer Install
 `:Packer Install`
 
+4. install dependencies
++ fzf
+```bash
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+```
++ rg
+```bash
+sudo apt install ripgrep
+```
+
 ## usage
 ```txt
 noremap <leader>tf :FloatermNew<CR>
