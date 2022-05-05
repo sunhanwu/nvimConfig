@@ -79,6 +79,26 @@ return require('packer').startup({
 		use 'frazrepo/vim-rainbow'
 		-- far: search and replace plugin
 		use 'brooth/far.vim'
+		-- telescope
+		use {
+		  'nvim-telescope/telescope.nvim',
+		  requires = { {'nvim-lua/plenary.nvim'} }
+		}
+		-- toggleterm
+		use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
+		  require("toggleterm").setup()
+		end}
+		-- nvim-tree
+		use {
+			'kyazdani42/nvim-tree.lua',
+			requires = {
+			  'kyazdani42/nvim-web-devicons', -- optional, for file icon
+			}
+		}
+		-- session
+		use 'Shatur/neovim-session-manager'
+		--
+		use {'nvim-telescope/telescope-ui-select.nvim' }
 
 
 

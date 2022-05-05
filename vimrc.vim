@@ -65,3 +65,5 @@ let g:rainbow_active = 1
 
 " fzf
 source ~/.fzf/plugin/fzf.vim
+
+" nvim-tree

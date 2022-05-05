@@ -66,7 +66,7 @@ noremap s :w<CR>
 "noremap <M-Enter> :CocAction<CR>
 inoremap <C-s> <ESC> :w<CR>
 " 代码格式化
-noremap <leader>f :Format<CR> 
+"noremap <leader>f :Format<CR> 
 "noremap <leader>r :luafile ~/.wp/lua/run.lua<CR>
 
 " 强制退出
@@ -150,12 +150,30 @@ nmap  -  <Plug>(choosewin)
 
 
 " new floaterm
-noremap <leader>t :FloatermNew<CR>
+noremap <leader>tf :FloatermNew<CR>
 noremap <A-f> :FloatermFirst<CR>
 noremap <A-h> :FloatermHide<CR>
-"nmap <C-\> <C-\><C-n>
+noremap <A-n> :FloatermNext<CR>
+tnoremap jk <C-\><C-n>
 
 " start fzf
-noremap <leader>z :Files<CR>
-noremap <leader>r :History<CR>
-noremap <leader>s :BLines<CR>
+noremap <leader>fz :Files<CR>
+noremap <leader>fr :History<CR>
+noremap <leader>fs :BLines<CR>
+
+" telescope
+noremap <leader>ff :Telescope find_files<CR>
+nnoremap <leader>fg :Telescope live_grep<cr>
+nnoremap <leader>fb :Telescope buffers<cr>
+nnoremap <leader>fh :Telescope help_tags<cr>
+nnoremap <leader>fc :Telescope commands<CR>
+
+" ToggleTerm
+noremap <leader>th :ToggleTerm direction=horizontal size=30<CR>
+noremap <leader>tsc :ToggleTermSendCurrentLine<CR>
+noremap <leader>tsv :ToggleTermSendVisualLines<CR>
+
+" session
+noremap <leader>sl :SessionManager load_session<CR>
+noremap <leader>sc :SessionManager save_current_session<CR>
+
