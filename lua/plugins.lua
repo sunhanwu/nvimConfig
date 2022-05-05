@@ -82,7 +82,10 @@ return require('packer').startup({
 		-- telescope
 		use {
 		  'nvim-telescope/telescope.nvim',
-		  requires = { {'nvim-lua/plenary.nvim'} }
+		  requires = { 
+			  {'nvim-lua/plenary.nvim'},
+			  {'nvim-telescope/telescope-live-grep-raw.nvim'}
+		  }
 		}
 		-- toggleterm
 		use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
@@ -99,6 +102,12 @@ return require('packer').startup({
 		use 'Shatur/neovim-session-manager'
 		--
 		use {'nvim-telescope/telescope-ui-select.nvim' }
+		-- search and replace
+		use 'windwp/nvim-spectre'
+		-- todo
+		use "folke/todo-comments.nvim"
+		-- autosave
+		use "Pocco81/AutoSave.nvim"
 
 
 

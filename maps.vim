@@ -162,11 +162,13 @@ noremap <leader>fr :History<CR>
 noremap <leader>fs :BLines<CR>
 
 " telescope
-noremap <leader>ff :Telescope find_files<CR>
-nnoremap <leader>fg :Telescope live_grep<cr>
-nnoremap <leader>fb :Telescope buffers<cr>
-nnoremap <leader>fh :Telescope help_tags<cr>
-nnoremap <leader>fc :Telescope commands<CR>
+noremap <leader>ff :Telescope find_files theme=dropdown<CR>
+noremap <leader>fg :Telescope live_grep theme=dropdown<cr>
+noremap <leader>fb :Telescope buffers theme=dropdown<cr>
+noremap <leader>fh :Telescope help_tags theme=dropdown<cr>
+noremap <leader>fc :Telescope commands theme=dropdown<CR>
+noremap <leader>fgs :lua require("telescope").extensions.live_grep_raw.live_grep_raw()<CR>
+
 
 " ToggleTerm
 noremap <leader>th :ToggleTerm direction=horizontal size=30<CR>
@@ -176,4 +178,16 @@ noremap <leader>tsv :ToggleTermSendVisualLines<CR>
 " session
 noremap <leader>sl :SessionManager load_session<CR>
 noremap <leader>sc :SessionManager save_current_session<CR>
+
+" search and replace
+nnoremap <leader>S <cmd>lua require('spectre').open()<CR>
+	"search current word
+nnoremap <leader>sw <cmd>lua require('spectre').open_visual({select_word=true})<CR>
+vnoremap <leader>s <cmd>lua require('spectre').open_visual()<CR>
+	"search in current file
+nnoremap <leader>sp viw:lua require('spectre').open_file_search()<cr>
+	" run command :Spectre
+
+" todo-comments 
+noremap <leader>td :TodoTelescope theme=dropdown<CR>
 

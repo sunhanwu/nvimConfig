@@ -15,6 +15,7 @@ require('session_manager').setup({
 
 local config_group = vim.api.nvim_create_augroup('MyConfigGroup', {}) -- A global group for all your config autocommands
 
+-- TODO
 --vim.api.nvim_create_autocmd({ 'SessionLoadPost' }, {
   --group = config_group,
   --callback = function()
