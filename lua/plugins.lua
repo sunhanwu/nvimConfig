@@ -70,7 +70,7 @@ return require('packer').startup({
 		-- fzf搜索
 		use 'junegunn/fzf.vim'
 		-- 自动格式化
-		use 'Chiel92/vim-autoformat'
+		-- use 'Chiel92/vim-autoformat'
 		-- git status
 		use 'airblade/vim-gitgutter'
 
