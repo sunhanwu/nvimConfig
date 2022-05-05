@@ -73,6 +73,41 @@ return require('packer').startup({
 		-- use 'Chiel92/vim-autoformat'
 		-- git status
 		use 'airblade/vim-gitgutter'
+		-- terminal manager
+		use 'voldikss/vim-floaterm'
+		-- rainbow
+		use 'frazrepo/vim-rainbow'
+		-- far: search and replace plugin
+		use 'brooth/far.vim'
+		-- telescope
+		use {
+		  'nvim-telescope/telescope.nvim',
+		  requires = { 
+			  {'nvim-lua/plenary.nvim'},
+			  {'nvim-telescope/telescope-live-grep-raw.nvim'}
+		  }
+		}
+		-- toggleterm
+		use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
+		  require("toggleterm").setup()
+		end}
+		-- nvim-tree
+		use {
+			'kyazdani42/nvim-tree.lua',
+			requires = {
+			  'kyazdani42/nvim-web-devicons', -- optional, for file icon
+			}
+		}
+		-- session
+		use 'Shatur/neovim-session-manager'
+		--
+		use {'nvim-telescope/telescope-ui-select.nvim' }
+		-- search and replace
+		use 'windwp/nvim-spectre'
+		-- todo
+		use "folke/todo-comments.nvim"
+		-- autosave
+		use "Pocco81/AutoSave.nvim"
 
 
 
@@ -81,7 +116,7 @@ return require('packer').startup({
 		max_jobs = 16,
 		git = {
 			-- 修改这里可以切换加速的节点
-			default_url_format = 'https://hub.fastgit.org/%s'
+			default_url_format = 'https://www.github.com/%s'
 			-- csdn 备选
 			-- default_url_format = 'https://codechina.csdn.net/mirrors/%s'
 		},
