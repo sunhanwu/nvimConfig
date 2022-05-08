@@ -112,6 +112,12 @@ return require('packer').startup({
 		use "tpope/vim-surround"
 		
 		use "AndrewRadev/switch.vim"
+		-- Tabular
+		use "godlygeek/tabular"
+		-- fold
+		use "tmhedberg/SimpylFold"
+		-- TagBar
+		use "preservim/tagbar"
 
 
 	end,

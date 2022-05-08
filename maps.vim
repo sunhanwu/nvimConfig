@@ -197,3 +197,12 @@ noremap <A-w> :bd<CR>
 " cs: change surround
 
 " gs: switch between True and False
+
+" :Tabularize /=
+
+" simpylFold
+" zc: fold
+" zo: open
+
+" tagbar
+noremap <leader>tb :TagbarToggle<CR>
