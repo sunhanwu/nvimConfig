@@ -108,7 +108,8 @@ return require('packer').startup({
 		use "folke/todo-comments.nvim"
 		-- autosave
 		use "Pocco81/AutoSave.nvim"
-
+		-- change surround
+		use "tpope/vim-surround"
 
 
 	end,

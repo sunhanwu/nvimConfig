@@ -153,7 +153,7 @@ nmap  -  <Plug>(choosewin)
 noremap <leader>tf :FloatermNew --height=0.8 --width=0.9<CR>
 noremap <A-f> :FloatermFirst<CR>
 noremap <A-h> :FloatermHide<CR>
-noremap <A-n> :FloatermNext<CR>
+"foremap <A-n> :FloatermNext<CR>
 tnoremap jk <C-\><C-n>
 
 " start fzf
