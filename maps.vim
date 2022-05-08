@@ -153,8 +153,8 @@ noremap <C-v> :"+p<CR>
 
 " new floaterm
 noremap <leader>tf :FloatermNew --height=0.8 --width=0.9<CR>
-noremap <A-f> :FloatermFirst<CR>
-noremap <A-h> :FloatermHide<CR>
+noremap <C-f> :FloatermFirst<CR>
+noremap <C-h> :FloatermHide<CR>
 "foremap <A-n> :FloatermNext<CR>
 tnoremap jk <C-\><C-n>
 
@@ -194,7 +194,7 @@ nnoremap <leader>sp viw:lua require('spectre').open_file_search()<cr>
 noremap <leader>td :TodoTelescope theme=dropdown<CR>
 
 " close current buffer
-noremap <A-w> :bd<CR>
+noremap <C-w> :bd<CR>
 
 " cs: change surround
 

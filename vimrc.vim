@@ -1,7 +1,7 @@
 "----vim 个人使用习惯配置start------
 set encoding=UTF-8
 " leader设置成空格
-let mapleader=" "
+let mapleader=","
 " 使用鼠标
 set mouse=a
 " 显示行号
@@ -72,3 +72,4 @@ source ~/.fzf/plugin/fzf.vim
 let g:SimpylFold_docstring_preview = 1
 
 " semshi
+let g:python3_host_prog = '/Users/sunhanwu/anaconda3/bin/python3'

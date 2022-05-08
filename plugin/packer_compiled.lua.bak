@@ -72,243 +72,243 @@ _G.packer_plugins = {
   ["AutoSave.nvim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/AutoSave.nvim",
-    url = "https://github.com/Pocco81/AutoSave.nvim"
+    url = "https://wwwhub.com/Pocco81/AutoSave.nvim"
   },
   LuaSnip = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/LuaSnip",
-    url = "https://github.com/L3MON4D3/LuaSnip"
+    url = "https://wwwhub.com/L3MON4D3/LuaSnip"
   },
   SimpylFold = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/SimpylFold",
-    url = "https://github.com/tmhedberg/SimpylFold"
+    url = "https://wwwhub.com/tmhedberg/SimpylFold"
   },
   ["auto-pairs"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/auto-pairs",
-    url = "https://github.com/jiangmiao/auto-pairs"
+    url = "https://wwwhub.com/jiangmiao/auto-pairs"
   },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/cmp-buffer",
-    url = "https://github.com/hrsh7th/cmp-buffer"
+    url = "https://wwwhub.com/hrsh7th/cmp-buffer"
   },
   ["cmp-calc"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/cmp-calc",
-    url = "https://github.com/hrsh7th/cmp-calc"
+    url = "https://wwwhub.com/hrsh7th/cmp-calc"
   },
   ["cmp-emoji"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/cmp-emoji",
-    url = "https://github.com/hrsh7th/cmp-emoji"
+    url = "https://wwwhub.com/hrsh7th/cmp-emoji"
   },
   ["cmp-look"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/cmp-look",
-    url = "https://github.com/octaltree/cmp-look"
+    url = "https://wwwhub.com/octaltree/cmp-look"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
-    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+    url = "https://wwwhub.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-nvim-lua"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
-    url = "https://github.com/hrsh7th/cmp-nvim-lua"
+    url = "https://wwwhub.com/hrsh7th/cmp-nvim-lua"
   },
   ["cmp-path"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/cmp-path",
-    url = "https://github.com/hrsh7th/cmp-path"
+    url = "https://wwwhub.com/hrsh7th/cmp-path"
   },
   ["cmp-spell"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/cmp-spell",
-    url = "https://github.com/f3fora/cmp-spell"
+    url = "https://wwwhub.com/f3fora/cmp-spell"
   },
   cmp_luasnip = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
-    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+    url = "https://wwwhub.com/saadparwaiz1/cmp_luasnip"
   },
   ["defx-icons"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/defx-icons",
-    url = "https://github.com/kristijanhusak/defx-icons"
+    url = "https://wwwhub.com/kristijanhusak/defx-icons"
   },
   ["defx.nvim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/defx.nvim",
-    url = "https://github.com/Shougo/defx.nvim"
+    url = "https://wwwhub.com/Shougo/defx.nvim"
   },
   ["far.vim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/far.vim",
-    url = "https://github.com/brooth/far.vim"
+    url = "https://wwwhub.com/brooth/far.vim"
   },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/friendly-snippets",
-    url = "https://github.com/rafamadriz/friendly-snippets"
+    url = "https://wwwhub.com/rafamadriz/friendly-snippets"
   },
   ["fzf.vim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/fzf.vim",
-    url = "https://github.com/junegunn/fzf.vim"
+    url = "https://wwwhub.com/junegunn/fzf.vim"
   },
   ["gruvbox-material"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/gruvbox-material",
-    url = "https://github.com/sainnhe/gruvbox-material"
+    url = "https://wwwhub.com/sainnhe/gruvbox-material"
   },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
-    url = "https://github.com/onsails/lspkind-nvim"
+    url = "https://wwwhub.com/onsails/lspkind-nvim"
   },
   ["neovim-session-manager"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/neovim-session-manager",
-    url = "https://github.com/Shatur/neovim-session-manager"
+    url = "https://wwwhub.com/Shatur/neovim-session-manager"
   },
   nerdcommenter = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/nerdcommenter",
-    url = "https://github.com/preservim/nerdcommenter"
+    url = "https://wwwhub.com/preservim/nerdcommenter"
   },
   nerdtree = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/nerdtree",
-    url = "https://github.com/preservim/nerdtree"
+    url = "https://wwwhub.com/preservim/nerdtree"
   },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/nvim-cmp",
-    url = "https://github.com/hrsh7th/nvim-cmp"
+    url = "https://wwwhub.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
-    url = "https://github.com/neovim/nvim-lspconfig"
+    url = "https://wwwhub.com/neovim/nvim-lspconfig"
   },
   ["nvim-lspinstall"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/nvim-lspinstall",
-    url = "https://github.com/kabouzeid/nvim-lspinstall"
+    url = "https://wwwhub.com/kabouzeid/nvim-lspinstall"
   },
   ["nvim-spectre"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/nvim-spectre",
-    url = "https://github.com/windwp/nvim-spectre"
+    url = "https://wwwhub.com/windwp/nvim-spectre"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/packer.nvim",
-    url = "https://github.com/wbthomason/packer.nvim"
+    url = "https://wwwhub.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/plenary.nvim",
-    url = "https://github.com/nvim-lua/plenary.nvim"
+    url = "https://wwwhub.com/nvim-lua/plenary.nvim"
   },
   rnvimr = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/rnvimr",
-    url = "https://github.com/kevinhwang91/rnvimr"
+    url = "https://wwwhub.com/kevinhwang91/rnvimr"
   },
   semshi = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/semshi",
-    url = "https://github.com/numirias/semshi"
+    url = "https://wwwhub.com/numirias/semshi"
   },
   ["switch.vim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/switch.vim",
-    url = "https://github.com/AndrewRadev/switch.vim"
+    url = "https://wwwhub.com/AndrewRadev/switch.vim"
   },
   tabular = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/tabular",
-    url = "https://github.com/godlygeek/tabular"
+    url = "https://wwwhub.com/godlygeek/tabular"
   },
   tagbar = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/tagbar",
-    url = "https://github.com/preservim/tagbar"
+    url = "https://wwwhub.com/preservim/tagbar"
   },
   ["telescope-live-grep-raw.nvim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/telescope-live-grep-raw.nvim",
-    url = "https://github.com/nvim-telescope/telescope-live-grep-raw.nvim"
+    url = "https://wwwhub.com/nvim-telescope/telescope-live-grep-raw.nvim"
   },
   ["telescope-ui-select.nvim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/telescope-ui-select.nvim",
-    url = "https://github.com/nvim-telescope/telescope-ui-select.nvim"
+    url = "https://wwwhub.com/nvim-telescope/telescope-ui-select.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/telescope.nvim",
-    url = "https://github.com/nvim-telescope/telescope.nvim"
+    url = "https://wwwhub.com/nvim-telescope/telescope.nvim"
   },
   ["todo-comments.nvim"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
-    url = "https://github.com/folke/todo-comments.nvim"
+    url = "https://wwwhub.com/folke/todo-comments.nvim"
   },
   ["toggleterm.nvim"] = {
     config = { "\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0" },
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
-    url = "https://github.com/akinsho/toggleterm.nvim"
+    url = "https://wwwhub.com/akinsho/toggleterm.nvim"
   },
   ["vim-airline"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/vim-airline",
-    url = "https://github.com/vim-airline/vim-airline"
+    url = "https://wwwhub.com/vim-airline/vim-airline"
   },
   ["vim-airline-themes"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
-    url = "https://github.com/vim-airline/vim-airline-themes"
+    url = "https://wwwhub.com/vim-airline/vim-airline-themes"
   },
   ["vim-choosewin"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/vim-choosewin",
-    url = "https://github.com/t9md/vim-choosewin"
+    url = "https://wwwhub.com/t9md/vim-choosewin"
   },
   ["vim-devicons"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/vim-devicons",
-    url = "https://github.com/ryanoasis/vim-devicons"
+    url = "https://wwwhub.com/ryanoasis/vim-devicons"
   },
   ["vim-floaterm"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/vim-floaterm",
-    url = "https://github.com/voldikss/vim-floaterm"
+    url = "https://wwwhub.com/voldikss/vim-floaterm"
   },
   ["vim-gitgutter"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
-    url = "https://github.com/airblade/vim-gitgutter"
+    url = "https://wwwhub.com/airblade/vim-gitgutter"
   },
   ["vim-rainbow"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/vim-rainbow",
-    url = "https://github.com/frazrepo/vim-rainbow"
+    url = "https://wwwhub.com/frazrepo/vim-rainbow"
   },
   ["vim-startify"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/vim-startify",
-    url = "https://github.com/mhinz/vim-startify"
+    url = "https://wwwhub.com/mhinz/vim-startify"
   },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/sunhanwu/.local/share/nvim/site/pack/packer/start/vim-surround",
-    url = "https://github.com/tpope/vim-surround"
+    url = "https://wwwhub.com/tpope/vim-surround"
   }
 }
 

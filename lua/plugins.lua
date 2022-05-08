@@ -25,13 +25,13 @@ return require('packer').startup({
 		--内嵌浮动ranger插件
 		use 'kevinhwang91/rnvimr'
 		-- 文件管理插件，类似与ranger。小孩子才做选择，我都要
-		use {
-			"Shougo/defx.nvim",
-			requires = {
-				"kristijanhusak/defx-icons", -- dexf文件管理图标支持
-				"t9md/vim-choosewin" -- 窗口选择器,可以让defx使用i打开文件
-			}
-		}
+		--use {
+			--"Shougo/defx.nvim",
+			--requires = {
+				--"kristijanhusak/defx-icons", -- dexf文件管理图标支持
+				--"t9md/vim-choosewin" -- 窗口选择器,可以让defx使用i打开文件
+			--}
+		--}
 		--Nvim LSP 客户端的快速入门配置
 		use "neovim/nvim-lspconfig"
 		use {
@@ -120,7 +120,7 @@ return require('packer').startup({
 		-- TagBar
 		use "preservim/tagbar"
 		-- semshi
-		use "numirias/semshi"
+		--use "numirias/semshi"
 
 
 	end,
@@ -128,7 +128,7 @@ return require('packer').startup({
 		max_jobs = 16,
 		git = {
 			-- 修改这里可以切换加速的节点
-			default_url_format = 'https://www.github.com/%s'
+			-- default_url_format = 'https://www.github.com/%s'
 			-- csdn 备选
 			-- default_url_format = 'https://codechina.csdn.net/mirrors/%s'
 		},
