@@ -118,6 +118,8 @@ return require('packer').startup({
 		use "tmhedberg/SimpylFold"
 		-- TagBar
 		use "preservim/tagbar"
+		-- semshi
+		use "numirias/semshi"
 
 
 	end,

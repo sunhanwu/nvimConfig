@@ -70,3 +70,5 @@ source ~/.fzf/plugin/fzf.vim
 
 " simpylFold
 let g:SimpylFold_docstring_preview = 1
+
+" semshi

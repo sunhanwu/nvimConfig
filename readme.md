@@ -28,6 +28,10 @@ sudo apt install ripgrep
 ```bash
 sudo apt install ctags
 ```
++ pynvim
+```bash
+pip3 install pynvim --upgrade
+```
 
 
 ## usage

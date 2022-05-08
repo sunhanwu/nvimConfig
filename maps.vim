@@ -148,6 +148,8 @@ nmap  -  <Plug>(choosewin)
 "nmap  sw  <Plug>(choosewin)
 "nmap  <leader>w  <Plug>(choosewin)
 
+noremap <C-c> :"+y<CR>
+noremap <C-v> :"+p<CR>
 
 " new floaterm
 noremap <leader>tf :FloatermNew --height=0.8 --width=0.9<CR>
@@ -205,4 +207,7 @@ noremap <A-w> :bd<CR>
 " zo: open
 
 " tagbar
-noremap <leader>tb :TagbarToggle<CR>
+noremap <leader>tb :tagbartoggle<cr>
+
+" semshi
+noremap <leader>rr :Semshi rename<CR>
