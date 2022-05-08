@@ -207,7 +207,11 @@ noremap <A-w> :bd<CR>
 " zo: open
 
 " tagbar
-noremap <leader>tb :tagbartoggle<cr>
+noremap <leader>tb :TagbarToggle<cr>
 
 " semshi
 noremap <leader>rr :Semshi rename<CR>
+
+" nerdTree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <leader>tt :NERDTreeToggle<CR>
