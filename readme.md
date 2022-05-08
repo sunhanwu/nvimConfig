@@ -24,6 +24,11 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ```bash
 sudo apt install ripgrep
 ```
++ ctags
+```bash
+sudo apt install ctags
+```
+
 
 ## usage
 ```txt
