@@ -66,8 +66,8 @@ noremap s :w<CR>
 "noremap <M-Enter> :CocAction<CR>
 inoremap <C-s> <ESC> :w<CR>
 " 代码格式化
-noremap <leader>f :Format<CR> 
-noremap <leader>r :luafile ~/.wp/lua/run.lua<CR>
+"noremap <leader>f :Format<CR> 
+"noremap <leader>r :luafile ~/.wp/lua/run.lua<CR>
 
 " 强制退出
 map Q :q<CR>
@@ -148,4 +148,70 @@ nmap  -  <Plug>(choosewin)
 "nmap  sw  <Plug>(choosewin)
 "nmap  <leader>w  <Plug>(choosewin)
 
+noremap <C-c> :"+y<CR>
+noremap <C-v> :"+p<CR>
 
+" new floaterm
+noremap <leader>tf :FloatermNew --height=0.8 --width=0.9<CR>
+noremap <A-f> :FloatermFirst<CR>
+noremap <A-h> :FloatermHide<CR>
+"foremap <A-n> :FloatermNext<CR>
+tnoremap jk <C-\><C-n>
+
+" start fzf
+noremap <leader>fz :Files<CR>
+noremap <leader>fr :History<CR>
+noremap <leader>fs :BLines<CR>
+
+" telescope
+noremap <leader>ff :Telescope find_files theme=dropdown<CR>
+noremap <leader>fg :Telescope live_grep theme=dropdown<cr>
+noremap <leader>fb :Telescope buffers theme=dropdown<cr>
+noremap <leader>fh :Telescope help_tags theme=dropdown<cr>
+noremap <leader>fc :Telescope commands theme=dropdown<CR>
+noremap <leader>fgs :lua require("telescope").extensions.live_grep_raw.live_grep_raw()<CR>
+
+
+" ToggleTerm
+noremap <leader>th :ToggleTerm direction=horizontal size=30<CR>
+noremap <leader>tsc :ToggleTermSendCurrentLine<CR>
+noremap <leader>tsv :ToggleTermSendVisualLines<CR>
+
+" session
+noremap <leader>sl :SessionManager load_session<CR>
+noremap <leader>sc :SessionManager save_current_session<CR>
+
+" search and replace
+nnoremap <leader>S <cmd>lua require('spectre').open()<CR>
+	"search current word
+nnoremap <leader>sw <cmd>lua require('spectre').open_visual({select_word=true})<CR>
+vnoremap <leader>s <cmd>lua require('spectre').open_visual()<CR>
+	"search in current file
+nnoremap <leader>sp viw:lua require('spectre').open_file_search()<cr>
+	" run command :Spectre
+
+" todo-comments 
+noremap <leader>td :TodoTelescope theme=dropdown<CR>
+
+" close current buffer
+noremap <A-w> :bd<CR>
+
+" cs: change surround
+
+" gs: switch between True and False
+
+" :Tabularize /=
+
+" simpylFold
+" zc: fold
+" zo: open
+
+" tagbar
+noremap <leader>tb :TagbarToggle<cr>
+
+" semshi
+noremap <leader>rr :Semshi rename<CR>
+
+" nerdTree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <leader>tt :NERDTreeToggle<CR>

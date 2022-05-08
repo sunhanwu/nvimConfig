@@ -60,4 +60,15 @@ endfunction
 " set filetypes as typescriptreact
 autocmd BufNewFile,BufRead *.tsx,*.jsx,*.js set filetype=typescriptreact
 
+" active rainbow
+let g:rainbow_active = 1
 
+" fzf
+source ~/.fzf/plugin/fzf.vim
+
+" nvim-tree
+
+" simpylFold
+let g:SimpylFold_docstring_preview = 1
+
+" semshi

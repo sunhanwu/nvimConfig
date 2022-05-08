@@ -9,7 +9,7 @@ end
 require("lspconf.typescript")
 --json支持
 --require("lspconf.json")
---require("lspconf.python")
+-- require("lspconf.python")
 --lua
 --require("lspconf.lua")
 --普通的语言支持
@@ -150,7 +150,7 @@ cmp.setup {
     {name = "luasnip"}, --{name = "nvim_lua"},
     {
       name = "buffer",
-      opts = {
+      option = {
         get_bufnrs = function()
           return vim.api.nvim_list_bufs()
         end
