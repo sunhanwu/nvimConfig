@@ -110,6 +110,8 @@ return require('packer').startup({
 		use "Pocco81/AutoSave.nvim"
 		-- change surround
 		use "tpope/vim-surround"
+		
+		use "AndrewRadev/switch.vim"
 
 
 	end,

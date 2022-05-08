@@ -193,3 +193,7 @@ noremap <leader>td :TodoTelescope theme=dropdown<CR>
 
 " close current buffer
 noremap <A-w> :bd<CR>
+
+" cs: change surround
+
+" gs: switch between True and False
