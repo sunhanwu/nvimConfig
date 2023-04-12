@@ -6,6 +6,7 @@ let mapleader=","
 set mouse=a
 " 显示行号
 set nu
+set ts=4
 " 相对行号
 set relativenumber
 " tab=4个空格
