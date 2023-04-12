@@ -66,7 +66,7 @@ noremap s :w<CR>
 "noremap <M-Enter> :CocAction<CR>
 inoremap <C-s> <ESC> :w<CR>
 " 代码格式化
-noremap <leader>f :Format<CR> 
+"noremap <leader>f :Format<CR> 
 noremap <leader>r :luafile ~/.wp/lua/run.lua<CR>
 
 " 强制退出
@@ -148,4 +148,7 @@ nmap  -  <Plug>(choosewin)
 "nmap  sw  <Plug>(choosewin)
 "nmap  <leader>w  <Plug>(choosewin)
 
+" system clipboard
+nmap <leader>y "+yy
+nmap <leader>p "+p
 
