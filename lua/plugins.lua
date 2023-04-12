@@ -115,11 +115,14 @@ return require('packer').startup({
 		-- Tabular
 		use "godlygeek/tabular"
 		-- fold
-		use "tmhedberg/SimpylFold"
+		--use "tmhedberg/SimpylFold"
 		-- TagBar
 		use "preservim/tagbar"
 		-- semshi
 		use "numirias/semshi"
+		-- leetcode plugin
+		--use "ianding1/leetcode.vim"
+		use "github/copilot.vim"
 
 
 	end,

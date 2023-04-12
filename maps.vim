@@ -148,8 +148,8 @@ nmap  -  <Plug>(choosewin)
 "nmap  sw  <Plug>(choosewin)
 "nmap  <leader>w  <Plug>(choosewin)
 
-noremap <C-c> :"+y<CR>
-noremap <C-v> :"+p<CR>
+nmap <leader>c "+yy<CR>
+nmap <leader>p "+p<CR>
 
 " new floaterm
 noremap <leader>tf :FloatermNew --height=0.8 --width=0.9<CR>
@@ -195,6 +195,7 @@ noremap <leader>td :TodoTelescope theme=dropdown<CR>
 
 " close current buffer
 noremap <A-w> :bd<CR>
+noremap <C-c> :'<,'> y *
 
 " cs: change surround
 
@@ -211,3 +212,4 @@ noremap <leader>tb :tagbartoggle<cr>
 
 " semshi
 noremap <leader>rr :Semshi rename<CR>
+

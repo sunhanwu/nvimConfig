@@ -69,6 +69,9 @@ source ~/.fzf/plugin/fzf.vim
 " nvim-tree
 
 " simpylFold
-let g:SimpylFold_docstring_preview = 1
+"let g:SimpylFold_docstring_preview = 1
 
 " semshi
+
+" leetcode
+"let g:leetcode_browser = 'chrome'
