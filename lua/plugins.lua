@@ -70,7 +70,7 @@ return require('packer').startup({
 		-- fzf搜索
 		use 'junegunn/fzf.vim'
 		-- 自动格式化
-		use 'Chiel92/vim-autoformat'
+		-- use 'Chiel92/vim-autoformat'
 		-- git status
 		use 'airblade/vim-gitgutter'
 		-- terminal manager
@@ -91,13 +91,14 @@ return require('packer').startup({
 		use {"akinsho/toggleterm.nvim", tag = 'v1.*', config = function()
 		  require("toggleterm").setup()
 		end}
-		-- nvim-tree
-		use {
-			'kyazdani42/nvim-tree.lua',
-			requires = {
-			  'kyazdani42/nvim-web-devicons', -- optional, for file icon
-			}
-		}
+		-- nerd-tree
+		use "preservim/nerdtree"
+		--use {
+			--'kyazdani42/nvim-tree.lua',
+			--requires = {
+			  --'kyazdani42/nvim-web-devicons', -- optional, for file icon
+			--}
+		--}
 		-- session
 		use 'Shatur/neovim-session-manager'
 		--
@@ -108,7 +109,18 @@ return require('packer').startup({
 		use "folke/todo-comments.nvim"
 		-- autosave
 		use "Pocco81/AutoSave.nvim"
-
+		-- change surround
+		use "tpope/vim-surround"
+		
+		use "AndrewRadev/switch.vim"
+		-- Tabular
+		use "godlygeek/tabular"
+		-- fold
+		use "tmhedberg/SimpylFold"
+		-- TagBar
+		use "preservim/tagbar"
+		-- semshi
+		use "numirias/semshi"
 
 
 	end,

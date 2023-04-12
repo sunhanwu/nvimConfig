@@ -148,12 +148,14 @@ nmap  -  <Plug>(choosewin)
 "nmap  sw  <Plug>(choosewin)
 "nmap  <leader>w  <Plug>(choosewin)
 
+noremap <C-c> :"+y<CR>
+noremap <C-v> :"+p<CR>
 
 " new floaterm
 noremap <leader>tf :FloatermNew --height=0.8 --width=0.9<CR>
 noremap <A-f> :FloatermFirst<CR>
 noremap <A-h> :FloatermHide<CR>
-noremap <A-n> :FloatermNext<CR>
+"foremap <A-n> :FloatermNext<CR>
 tnoremap jk <C-\><C-n>
 
 " start fzf
@@ -193,3 +195,23 @@ noremap <leader>td :TodoTelescope theme=dropdown<CR>
 
 " close current buffer
 noremap <A-w> :bd<CR>
+
+" cs: change surround
+
+" gs: switch between True and False
+
+" :Tabularize /=
+
+" simpylFold
+" zc: fold
+" zo: open
+
+" tagbar
+noremap <leader>tb :TagbarToggle<cr>
+
+" semshi
+noremap <leader>rr :Semshi rename<CR>
+
+" nerdTree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <leader>tt :NERDTreeToggle<CR>

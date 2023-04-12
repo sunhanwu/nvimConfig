@@ -68,3 +68,8 @@ let g:rainbow_active = 1
 source ~/.fzf/plugin/fzf.vim
 
 " nvim-tree
+
+" simpylFold
+let g:SimpylFold_docstring_preview = 1
+
+" semshi

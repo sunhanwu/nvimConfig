@@ -24,6 +24,15 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ```bash
 sudo apt install ripgrep
 ```
++ ctags
+```bash
+sudo apt install ctags
+```
++ pynvim
+```bash
+pip3 install pynvim --upgrade
+```
+
 
 ## usage
 ```txt
