@@ -3,8 +3,8 @@
 local fn = vim.fn
 local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
 if fn.empty(fn.glob(install_path)) > 0 then
-	 --fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})	--默认地址
-	fn.system({'git', 'clone', '--depth', '1', 'https://codechina.csdn.net/mirrors/wbthomason/packer.nvim.git', install_path})	--csdn加速镜像
+	 fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})	--默认地址
+	--fn.system({'git', 'clone', '--depth', '1', 'https://codechina.csdn.net/mirrors/wbthomason/packer.nvim.git', install_path})	--csdn加速镜像
 	vim.cmd 'packadd packer.nvim'
 end
 -- Only required if you have packer configured as `opt`
@@ -67,8 +67,60 @@ return require('packer').startup({
 		use 'jiangmiao/auto-pairs'
 		-- 启动美化
 		use 'mhinz/vim-startify'
+		-- fzf搜索
+		use 'junegunn/fzf.vim'
+		-- 自动格式化
+		-- use 'Chiel92/vim-autoformat'
+		-- git status
+		use 'airblade/vim-gitgutter'
+		-- terminal manager
+		use 'voldikss/vim-floaterm'
+		-- rainbow
+		use 'frazrepo/vim-rainbow'
+		-- far: search and replace plugin
+		use 'brooth/far.vim'
+		-- telescope
+		use {
+		  'nvim-telescope/telescope.nvim',
+		  requires = { 
+			  {'nvim-lua/plenary.nvim'},
+			  {'nvim-telescope/telescope-live-grep-args.nvim'}
+		  }
+		}
+		-- toggleterm
+		use {"akinsho/toggleterm.nvim", tag = 'v2.5.0', config = function()
+		  require("toggleterm").setup()
+		end}
+		-- nerd-tree
+		use "preservim/nerdtree"
+		--use {
+			--'kyazdani42/nvim-tree.lua',
+			--requires = {
+			  --'kyazdani42/nvim-web-devicons', -- optional, for file icon
+			--}
+		--}
+		-- session
+		use 'Shatur/neovim-session-manager'
+		--
+		use {'nvim-telescope/telescope-ui-select.nvim' }
+		-- search and replace
+		use 'windwp/nvim-spectre'
+		-- todo
+		use "folke/todo-comments.nvim"
+		-- autosave
+		use "Pocco81/AutoSave.nvim"
+		-- change surround
+		use "tpope/vim-surround"
 		
-
+		use "AndrewRadev/switch.vim"
+		-- Tabular
+		use "godlygeek/tabular"
+		-- fold
+		use "tmhedberg/SimpylFold"
+		-- TagBar
+		use "preservim/tagbar"
+		-- semshi
+		use "numirias/semshi"
 
 
 	end,
@@ -76,9 +128,9 @@ return require('packer').startup({
 		max_jobs = 16,
 		git = {
 			-- 修改这里可以切换加速的节点
-			default_url_format = 'https://hub.fastgit.org/%s'
+			default_url_format = 'https://www.github.com/%s'
 			-- csdn 备选
-			-- default_url_format = 'https://codechina.csdn.net/mirrors/%s'
+			 --default_url_format = 'https://codechina.csdn.net/mirrors/%s'
 		},
 		display = {
 			open_fn = function()

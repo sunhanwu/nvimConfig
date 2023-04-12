@@ -1,11 +1,12 @@
 "----vim 个人使用习惯配置start------
 set encoding=UTF-8
 " leader设置成空格
-let mapleader=" "
+let mapleader=","
 " 使用鼠标
 set mouse=a
 " 显示行号
 set nu
+set ts=4
 " 相对行号
 set relativenumber
 " tab=4个空格
@@ -60,4 +61,15 @@ endfunction
 " set filetypes as typescriptreact
 autocmd BufNewFile,BufRead *.tsx,*.jsx,*.js set filetype=typescriptreact
 
+" active rainbow
+let g:rainbow_active = 1
 
+" fzf
+source ~/.fzf/plugin/fzf.vim
+
+" nvim-tree
+
+" simpylFold
+let g:SimpylFold_docstring_preview = 1
+
+" semshi
